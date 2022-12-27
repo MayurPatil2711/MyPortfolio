@@ -1,0 +1,226 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+@media(max-width:998px) {
+  html{
+    font-size=55%;
+  }
+}
+
+@media(max-width:768px) {
+  html{
+    font-size:45%;
+  }
+}
+
+@media(max-width:600px) {
+  html{
+    font-size:40%;
+  }
+}
+
+@media(max-width:500px) {
+  html{
+    font-size:35%;
+  }
+}
+
+@media(max-width:400px) {
+  html{
+    font-size:30%;
+  }
+}
+
+@media(max-width:350px) {
+  html{
+    font-size:25%;
+  }
+}
+
+@media(max-width:300px) {
+  html{
+    font-size:20%;
+  }
+}
+
+@media screen and (max-width=500px){
+  .profilephoto{
+    padding: 0 20px;
+  }
+}
+
+.Header{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #344D67;
+  width: 0%;
+}
+
+h1{
+  text-align: center;
+  color: #181D31;
+  font-size: 6rem;
+}
+
+h2{
+  text-align: center;
+  color: #282A3A;
+  font-size:4rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.Text1{
+  font-size: 4rem;
+  color: #393E46;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-weight: bolder;
+}
+
+.Text2{
+  font-size: 1.7rem;
+  color: white;
+  font-family: 'Dangrek', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+.FrontPage{
+  box-sizing: border-box;
+  width: 100vw;
+  overflow: visible;
+  background: #00F260;
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);
+  background: linear-gradient(to right, #0575E6, #00F260);
+
+}
+
+.Section0{
+    display: block;
+    align-items: center;
+}
+
+.IntroText1{
+  font-size: 2rem;
+  color: #FFFBE7;
+  font-family: 'Edu QLD Beginner', cursive;
+  line-height: 2.5rem;
+}
+
+.Stream{
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: #472183;
+  letter-spacing: 0.1rem;
+  line-height: 4rem;
+  word-spacing: 0.35rem;
+}
+
+.Project1{
+    display: flex;
+    align-items: center;
+}
+
+.Section1{
+  box-sizing: border-box;
+  width: 100vw;
+  overflow:auto;
+  display: flex;
+}
+
+.Corona{
+  background-color:#EEF2E6;
+  width: 45rem;
+  height: 35rem;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  border-color: #EEF2E6;
+  border-radius: 5rem;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  transition: 1s;
+  align-items: center;
+  justify-content: center;
+}
+
+.Links1{
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: #395144;
+}
+
+a:link{
+  text-decoration: none;
+  color: #00FFF6;
+}
+
+a:visited{
+  color: #CDFCF6;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FA9494;
+  text-decoration: underline;
+}
+
+.Links2{
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 2rem;
+  color: #395144;
+}
+
+a:link{
+  text-decoration: none;
+  color: #00FFF6;
+}
+
+a:visited{
+  color: #CDFCF6;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FA9494;
+  text-decoration: underline;
+}
+
+.Project2{
+    display: flex;
+    align-items: center;
+}
